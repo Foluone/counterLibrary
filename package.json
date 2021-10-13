@@ -1,6 +1,21 @@
 {
   "name": "count-lib",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A sample angular counter component library",
+  "author": "Folu Oye",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Foluone/counterLibrary.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Foluone/counterLibrary/issues"
+  },
+  "homepage": "https://github.com/Foluone/counterLibrary",
+  "keywords": [
+    "angular",
+    "angular library"
+  ],
+  "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -36,5 +51,6 @@
     "karma-jasmine-html-reporter": "~1.7.0",
     "ng-packagr": "^12.1.1",
     "typescript": "~4.3.5"
-  }
+  },
+  "main": "index.js"
 }

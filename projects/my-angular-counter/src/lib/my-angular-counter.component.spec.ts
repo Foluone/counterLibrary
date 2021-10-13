@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyCounterComponent } from './my-counter.component';
+import { MyAngularCounterComponent } from './my-angular-counter.component';
 
-describe('MyCounterComponent', () => {
-  let component: MyCounterComponent;
-  let fixture: ComponentFixture<MyCounterComponent>;
+describe('MyAngularCounterComponent', () => {
+  let component: MyAngularCounterComponent;
+  let fixture: ComponentFixture<MyAngularCounterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MyCounterComponent ]
+      declarations: [ MyAngularCounterComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MyCounterComponent);
+    fixture = TestBed.createComponent(MyAngularCounterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

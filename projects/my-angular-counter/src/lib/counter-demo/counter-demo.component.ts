@@ -14,10 +14,9 @@ export class CounterDemoComponent implements OnInit {
 
   onPlusBtnClick() {
     this.counter++;
-  }
-
-  onMinusBtnClick() {
-    this.counter--;
-  }
+    }
+    onMinusBtnClick() {
+    this.counter -- ;
+    }
 
 }

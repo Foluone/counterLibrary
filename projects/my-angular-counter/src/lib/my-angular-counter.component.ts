@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-my-counter',
+  selector: 'lib-my-angular-counter',
   template: `
     <p>
-      my-counter works!
+      my-angular-counter works!
     </p>
   `,
   styles: [
   ]
 })
-export class MyCounterComponent implements OnInit {
+export class MyAngularCounterComponent implements OnInit {
 
   constructor() { }
 

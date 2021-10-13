@@ -45,6 +45,12 @@
     "declaration": false,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
+    "paths": {
+      "my-angular-counter": [
+        "dist/my-angular-counter/my-angular-counter",
+        "dist/my-angular-counter"
+      ]
+    },
     "experimentalDecorators": true,
     "target": "es2015",
     "typeRoots": ["node_modules/@types"],
